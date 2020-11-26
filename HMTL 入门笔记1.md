@@ -80,7 +80,7 @@ Tim Berners-Lee（李爵士）
 
 ## 全局属性
 - class
-标记一个元素，可以包含多个值
+    标记一个元素，可以包含多个值
 - style
 HTML 属性，注释样式，可以用 JS 设置
 HTML、CSS、JS 设置属性，JS 优先级最高
