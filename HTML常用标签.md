@@ -22,9 +22,9 @@
 
 ### 3. a 的 href 的取值
 - 网址
-https://google.com
-http://google.com
-//google.com 无协议网址
+https://google.com<br>
+http://google.com<br>
+//google.com 无协议网址<br>
 无协议网址会根据当前的页面的协议，进行跳转
 
 - 路径
@@ -47,10 +47,10 @@ http://google.com
 
 ### 4. a 的 target 的取值
 - 内置名字
-> _blank：在新页面打开
-> _self：默认值，在当前页面打开
-> _top：结合 iframe 标签，在顶层窗口打开
-> _parent：结合 iframe 标签，在父级窗口打开
+_blank：在新页面打开<br>
+_self：默认值，在当前页面打开<br>
+_top：结合 iframe 标签，在顶层窗口打开<br>
+_parent：结合 iframe 标签，在父级窗口打开
 
 - 程序员命名
 比如 target="xxx"，意思是如果有个窗口叫 xxx，那么就在该窗口打开，如果没有那就创建一个叫 xxx 的窗口，然后在里面打开
@@ -93,9 +93,9 @@ border-collapse: collapse;
 发出 get 请求，展示一张图片
 
 - 属性
-> alt/height/width/src
-> 替换文字、宽高、图片路径
-> 永远不要让图片变形，宽高只能给一个
+alt/height/width/src<br>
+替换文字、宽高、图片路径<br>
+永远不要让图片变形，宽高只能给一个<br>
 
 - 事件
 onload/onerror，用 JS 补救图片加载失败
@@ -113,9 +113,9 @@ iframe/video/embed
 发 get 或 post 请求，然后刷新页面
 
 - 属性
-action： 请求路径
-method：请求方式，不写默认 POST
-autocomplete：on/off，自动填充，会给予推荐选项
+action： 请求路径<br>
+method：请求方式，不写默认 POST<br>
+autocomplete：on/off，自动填充，会给予推荐选项<br>
 target：用哪个页面展示请求的页面
 
 - 事件（onsubmit）
@@ -132,7 +132,7 @@ button/email/number/password/text/search/submit/tel/radio/checkbox/file/hiddem
 name/autofocus/checked/disabled/maxlength/pattern/value/placeholder
 
 - 事件
-onchange/onfocus/onblur
+onchange/onfocus/onblur<br>
 鼠标改变、点击、移出
 
 ## textarea 标签
