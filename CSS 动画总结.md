@@ -93,10 +93,10 @@
 
 ### 1. transform 之 translate
 #### 常用写法
-- translateX(<length-percentage>)
-- translateY(<length-percentage>)
-- translate(<length-precentage>,<length-percentage>?)
-- translateZ(<length>)且父容器 perspective
+- translateX(20px)
+- translateY(20px)
+- translate(20px,20px)
+- translateZ(20px)且父容器 perspective
 - translate3d(x,y,z)
 - 单纯的translateZ，没有效果，三维世界没有近大远小啊
 - 那怎么在二维的屏幕上模拟三维呢，你需要告诉我视点在哪，视野就是三个坐标轴的原点，怎么做呢
@@ -110,9 +110,9 @@
 
 ### 2. transform 之 scale
 #### 常用写法
-- scaleX(<number>)
-- scaleY(<number>)
-- scale(<number>,<number>?)
+- scaleX(2)
+- scaleY(2)
+- scale(2,2)
 - number 原来的多少倍
 - 没有动画
 - 要动画效果的话需要在元素自身加上 transition
@@ -122,10 +122,10 @@
 
 ### 3. transform 之 rotate
 #### 常用写法
-- rotate([<angle>|<zero>])
-- rotateZ([<angle>|<zero>])
-- rotateX([<angle>|<zero>])
-- rotateY([<angle>|<zero>])
+- rotate(10deg)
+- rotateZ(10deg)
+- rotateX(10deg)
+- rotateY(10deg)
 - rotate3d，太复杂，无法用语言表述
 - 没有动画
 - 默认以Z轴为轴心转动
@@ -136,9 +136,9 @@
 
 ### 4. transform 之 skew 
 #### 常用写法
-- skewX([<angle>|<zero>])
-- skewY([<angle>|<zero>])
-- skew([<angle>|<zero>],[<angle>|<zero>]?)
+- skewX(20deg)
+- skewY(20deg)
+- skew(20deg,20deg)
 #### 经验
 - 用的较少
 - 用到时再搜 skew MDN 文档
