@@ -151,13 +151,13 @@ A || B || C || D 取第一个真值或 D，并不会取 true / false
 
 ## 总结
 ### 条件语句
-if...else...
-switch 
-A ? B : C
-A && B
-fn && fn()
-A || B 
-A = A || B
+- if...else...
+- switch 
+- A ? B : C
+- A && B
+- fn && fn()
+- A || B 
+- A = A || B
 
 
 
