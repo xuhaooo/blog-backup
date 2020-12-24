@@ -27,7 +27,7 @@
 比如：
 ```js
 function fn() {
-    return (undefined)
+    return 
     3
 }
 ```
