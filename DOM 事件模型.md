@@ -154,3 +154,6 @@ btn.addEventListener(
 ### 4. 阻止冒泡与阻止默认行为
 1. 所有“冒泡”都可以取消，使用 `event.stopPropagation()` 方法，可以阻止事件触发向上传播，但是不会阻止该元素上的其他监听函数的触发
 2. 默认行为，如点击超链接跳转、滑动滚轮控制滚动条等。有的默认行为可以通过 `event.preventDefault()` 方法来取消，有的则不可以。前提是事件的 `cancelable` 属性为 true
+
+## 参考资料
+- [DOM 事件模型](https://wangdoc.com/javascript/events/index.html)
