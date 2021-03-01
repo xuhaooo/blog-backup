@@ -66,7 +66,7 @@ request.send()
 ### 1. 准备工作
 - 既然需要发请求，就需要一个东西来接收请求啊，服务器 [server.js](https://github.com/xuhaooo/ajax-demo-1/blob/main/server.js)
 - 在启动好整个项目之后，发现项目目录里面已经有了一些文件
-- 其中 index.html/main.js 这两个文件分别用于写发送请求的 JS 以及首页展示效果
+- 其中 index.html/main.js 这两个文件分别用于写发送请求的 JS 以及展示效果的首页
 ### 2. 开始实践
 #### 2.1 加载 CSS
 - 在 main.js 里面通过发 AJAX 请求的方式拿到了服务器返回的 CSS 内容
